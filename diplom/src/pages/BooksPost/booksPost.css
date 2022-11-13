@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.books_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.books_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.books_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.books {
+    display: grid;
+    grid-template-columns: 352px 352px 352px;
+    padding: 0px;
+    gap: 32px;
+}
+
+
+
+.books_image {
+    margin-bottom: 20px;
+    background-color: #D7E4FD;
+    width: 100%;
+
+}
+
+.books_price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.books_footer {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    margin-bottom: 33px;
+    padding-top: 35px;
+    border-top: 1px solid #E7E7E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 16px;
+
+}

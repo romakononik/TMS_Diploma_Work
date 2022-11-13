@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination_navButton {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+
+.pagination_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    color: #A8A8A8;
+}
+
+.pagination_page:hover {
+    background-color: green;
+    transition: all 0.3s;
+}

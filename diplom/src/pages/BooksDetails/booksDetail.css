@@ -1,0 +1,74 @@
+.booksDetail_container {
+    margin-top: 54px;
+}
+
+.booksDetail_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.booksDetail_description {
+    min-width: 448px;
+    padding-top: 40px;
+}
+
+.image_container {
+    width: 544px;
+    height: 472px;
+    background: #FEE9E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.booksDetail_image {
+    width: 300px;
+    height: 350px;
+}
+
+.booksDetails_price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.booksDetail_container {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+.booksDetail_description {
+    border-top: 1px solid #E7E7E7;
+}
+
+.booksDetails_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booksDetails_aboutBooks {
+    margin-top: 24px;
+}
+
+.more_details {
+    margin-top: 16px;
+}
+
+.booksDetails_button {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 56px;
+    margin-top: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.booksDetail_prevBook {
+    margin-top: 40px;
+    text-align: center;
+}
