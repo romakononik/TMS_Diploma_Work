@@ -1,0 +1,5 @@
+export const HOME = "/"
+export const SIGN_UP = "/signup"
+export const LOGIN = "/login"
+export const BOOKS_SEARCH = "books/search"
+export const BOOKS_DETAIL = "books/:booksId"
